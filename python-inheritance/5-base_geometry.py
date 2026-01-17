@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""an empty class BaseGeometry"""
+"""a class BaseGeometry"""
 
 
 class BaseGeometry:
-    """an empty class BaseGeometry"""
-    pass
+    """a class BaseGeometry"""
 
+    def area(self):
+        raise Exception("area() is not implemented")
