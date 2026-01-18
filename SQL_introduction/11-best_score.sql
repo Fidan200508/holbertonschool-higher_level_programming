@@ -1,0 +1,8 @@
+-- a script that lists all records with a score >= 10 in the table second_table of the database hbtn_0c_0
+-- a script that lists all records with a score >= 10 in the table second_table of the database hbtn_0c_0
+SELECT
+ score,
+ name
+FROM second_table
+WHERE SCORE >= 10
+ORDER BY SCORE DESC limit 10;
